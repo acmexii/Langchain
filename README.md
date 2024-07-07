@@ -1,8 +1,9 @@
-# 대화기록과 Pinecone 벡터DB 검색으로 답변하는 Chatbot (w/ streamlit)
+# 대화기록과 Pinecone 벡터DB 검색으로 답변하는 Chatbot 
 - history : StreamlitChatMessageHistory()
 - Vectorstore : Pinecone
 - embeddings = OpenAIEmbeddings
 - Document Loader : UnstructuredPDFLoader
+- UI : Streamlit
 #### Code
 ```
 index_name = os.environ["PINECONE_INDEX"]
