@@ -1,5 +1,6 @@
 # 대화기록과 Pinecone 벡터DB 검색으로 답변하는 Chatbot 
-- history : StreamlitChatMessageHistory()
+대화 이력으로부터 질의 맥락을 파악하고 이를 바탕으로 벡터DB를 검색, 조합한 다음 최종 LLM에 질의하는 RAG 샘플
+- history : StreamlitChatMessageHistory
 - Vectorstore : Pinecone
 - embeddings = OpenAIEmbeddings
 - Document Loader : UnstructuredPDFLoader
